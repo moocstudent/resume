@@ -39,7 +39,7 @@ const Nav = ({ theme, toggleTheme, lang, toggleLang, nav, route }) => {
   return (
     <header className="nav">
       <div className="nav-brand" onClick={() => nav("#/")}>
-        <span className="mark">JQ</span>
+        <span className="mark">ZQ</span>
         <span>{t("brand_word")}</span>
       </div>
       <nav className="nav-links">
