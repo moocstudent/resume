@@ -15,8 +15,8 @@ const PROFILE = {
   codewars: "https://www.codewars.com/users/g04-ukyo",
   keywords: [
     "Java", "Spring Cloud", "Python", "Vue", "Microservices",
-    "AI Agent", "MCP", "Agentic RAG", "YOLO26", "FreeSwitch",
-    "Django", "Kotlin", "MySQL", "Redis", "Docker",
+    "Three.js", "Blend4Web", "Blender", "AI Agent", "MCP",
+    "YOLO26", "FreeSwitch", "Django", "Kotlin", "MySQL", "Redis", "Docker",
   ],
 };
 
@@ -62,7 +62,7 @@ const WORK_EXPERIENCE = [
         "市场零售系统、电商订货系统（Seata 分布式事务）",
         "数据同步中心（Spring Cloud + db-scheduler）",
         "移动摄像管理系统、心理咨询诊断系统（Python Django）",
-        "残疾儿童机构管理系统",
+        "残疾儿童机构管理系统（小程序/家长/老师/机构多端）",
       ],
       en: [
         "WeCom secondary dev (Vert.x / RxJava2 / R2DBC / WebFlux)",
@@ -71,7 +71,7 @@ const WORK_EXPERIENCE = [
         "Retail system, e-commerce ordering (Seata distributed tx)",
         "Data sync hub (Spring Cloud + db-scheduler)",
         "Camera & psychology systems (Python Django)",
-        "Disabled children institution management",
+        "Disabled children institution mgmt (mini-app/parent/teacher/org portals)",
       ],
     },
   },
@@ -217,6 +217,37 @@ const PROJECTS = [
       en: ["User/group/event callback batch processing", "Consul + Gateway microservice architecture"],
     },
   },
+  {
+    id: "p11",
+    period: "2017.06 — 2017.06",
+    title: { zh: "小宅 VR 眼镜 3D 产品展示", en: "VR Headset 3D Product Demo" },
+    role: { zh: "3D 交互与 Web 部署", en: "3D interaction & Web deploy" },
+    stack: "Blender · Blend4Web · Three.js · Linux · HTML",
+    scope: {
+      zh: [
+        "Blender 模型上色，全景图作 3D 环境背景",
+        "Blend4Web 节点交互：部件名称/功能/位置标注与使用步骤动画",
+        "模型 JSON 核验、Web 转换与 Linux 服务器部署展示",
+      ],
+      en: [
+        "Blender texturing, panorama as 3D environment",
+        "Blend4Web node interactions: part labels, features, usage-step animations",
+        "Model JSON validation, Web export, Linux deployment",
+      ],
+    },
+    featured: true,
+  },
+  {
+    id: "p12",
+    period: "2016.10 — 2017.06",
+    title: { zh: "720° 全景拍摄与发布", en: "360° Panorama Production" },
+    role: { zh: "全程", en: "End-to-end" },
+    stack: "PanoVR · Lightroom · Photoshop · 单反/航拍",
+    scope: {
+      zh: ["单反结合航拍外景拍摄", "图片合成与 PhotoShop 修正", "720yun 平台一键导览发布"],
+      en: ["DSLR + drone outdoor shooting", "Stitching & Photoshop correction", "720yun guided tour publishing"],
+    },
+  },
 ];
 
 const PERSONAL_PROJECTS = [
@@ -295,6 +326,14 @@ const SKILL_GROUPS = [
     items: {
       zh: ["Linux · Docker · Jenkins · GitLab · Nacos · Jpom CI/CD · 阿里云 · Azure · 华为云 · Sentry"],
       en: ["Linux · Docker · Jenkins · GitLab · Nacos · Jpom CI/CD · Aliyun · Azure · Huawei Cloud · Sentry"],
+    },
+  },
+  {
+    id: "3d",
+    title: { zh: "三维可视化", en: "3D Visualization" },
+    items: {
+      zh: ["Three.js · Blend4Web · Blender · glTF/OBJ 模型加载 · 场景交互 · 全景 720°"],
+      en: ["Three.js · Blend4Web · Blender · glTF/OBJ loading · Scene interaction · 360° panorama"],
     },
   },
   {
